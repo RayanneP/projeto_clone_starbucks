@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Starbucks Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/starbucks-favicon.png" type="image/x-icon">
 </head>
 <body>
-    
+    <!-- tag semantica principal -->
+    <main>
+        <div class="circulo"></div>
+
+        <header>
+            <a href="#"><img src="assets/logo.png" alt="logo da"></a>
+
+            <div class="toggle" onclick="toggleMenu();"></div>
+
+            <ul class="links">
+                <li><a href="https://www.starbucksathome.com/br/">Home</a></li>
+                <li><a href="https://www.starbucksathome.com/br/cafes/c">Menu</a></li>
+                <li><a href="https://www.starbucksathome.com/br/recipe">Novidades</a></li>
+                <li><a href="https://www.starbucksathome.com/br/blog.html">Lojas</a></li>
+            </ul>
+        </header>
+        <div class="conteudo">
+            <div class="textoPrincipal">
+                <h2>Não é apenas um café é: <br><span>Strarbucks</span></h2>
+
+                <p>Descubra um mundo de sabores inesquesiveis com a Starbucks. Cada colherada é uma explosão de sabores irresitíveis que vão te conquistar</p>
+
+                <!-- Botão -->
+                 <a href="https://www.starbucksathome.com/br/home" target="_blank">Veja mais!</a>
+            </div>
+            <!-- imagem grande (copo) -->
+             <div class="imgBox"><img src="assets/img1.png" alt="copo" class="starbucks"></div>
+        </div>
+
+        <!-- imagem copos pequenos -->
+         <ul class="sorvetes">
+            <li><img src="assets/thumb1.png" onclick="imgSlider('assets/img1.png'); changeCircleColor('#017143')"></li>
+            <li><img src="assets/thumb2.png" onclick="imgSlider('assets/img2.png'); changeCircleColor('#eb7495')"></li>
+            <li><img src="assets/thumb3.png" onclick="imgSlider('assets/img3.png'); changeCircleColor('#d752b1')"></li>
+         </ul>
+    </main>
 </body>
 </html>
