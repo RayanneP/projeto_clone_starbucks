@@ -1,1 +1,2 @@
-## Projeto cópia do site da starbucks
+# Projeto cópia do site da starbucks
+Foi realizado toda estrutura da página no HTML, ou seja, os textos, as imagens e os links da página. Depois utilizando o CSS foram adicionados a cor primária, secundária e terciária, alterando tamanho de imagens, tamanho de textos e fontes, tudo isso com a ajuda das class. O JavaScript nunca tinhamos praticado, então a professora nos guiou para deixar a página mais dinâmica e ajudou a aplicar a responsividade no menu, que para telas menores seria aplicado o menu hambúrguer. 
